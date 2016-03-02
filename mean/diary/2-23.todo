@@ -1,0 +1,28 @@
+`			Mean.io
+----		1. 설치하기
+-				tutorial을 따라해서 별 어려움 없이 해결
+
+----		2.실행	
+---			1)mail 보내기
+-				-config/env/development.js에서 아래쪽 emailForm 수정
+-				-package/core/users.server/controllers.users.js에서 참고
+-				-세부내용은 template에서 수정하면 되고 config는 development 내용을 참조한거라고 생각
+
+---- 	3.register
+---			1) core/users/public/views/register.html
+---			2) core/users/public/controllers/meanUsers.js -> MeanUser는  core/users/public/services/meanUser.js에 있는 것
+---			3)core/users/public/services/meanjs에 $http.post('/api/register')
+---			4)view는 core/users/public/routes/auth.js
+
+
+
+-----	red 
+----    yellow
+---     purple
+--      green
+-       white
+/	blue	
+	gray
++-   	(complete) task
+!-	(emergency) task
+.-   	(canceled)task

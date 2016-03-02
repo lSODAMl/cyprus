@@ -1,0 +1,17 @@
+`			Mean.io
+----		1. 수정한 부분 
+-				core/users/public/services/meanUser.js에서 register할때 success 부분을 this.onIdentity.bind(this)->this.onIdFail.bind(this)로 변경
+
+
+
+
+-----	red 
+----    yellow
+---     purple
+--      green
+-       white
+/	blue	
+	gray
++-   	(complete) task
+!-	(emergency) task
+.-   	(canceled)task
